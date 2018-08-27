@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #F0F0F0;
+}
+
+header{
+  width: 100vw;
+  padding-top: 3vh;
+  padding-bottom: calc(3vh + 25px);
+  background: #396EFF;
+  position: fixed;
+  color: #fff;
+  z-index: 5;
+}
+
+header .logo{
+  color: #fff;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: bold;
+  left: 50px;
+  position: fixed;
+}
+
+header .username-nav{
+  color: #fff;
+  line-height: 25px;
+  right: 50px;
+  position: fixed;
+  text-align: right;
+}
+
+.GroupBar{
+  padding-left: 1vw;
+  padding-right: 1vw;
+  height: 100vh;
+  z-index: 4;
+  top: 0;
+  background: #fff;
+  left: 0;
+  position: fixed;
+  overflow-y: scroll;
+}
+.GroupBar ul{
+  top: calc(6vh + 45px);
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.GroupBar li{
+  width: 85px;
+  height: 85px;
+  border-radius: 85px;
+  border: 1px solid #AFAEAE;
+  background-color: #f0f0f0;
+  display: block;
+  margin-top: 40px;
+  list-style: none;
+}
+
+
+.AssetManager{
+  padding-left: 1vw;
+  padding-right: 1vw;
+  height: 100vh;
+  z-index: 4;
+  top: 0;
+  background: #fff;
+  right: 0;
+  position: fixed;
+  overflow-y: scroll;
+  width: 15vw;
+}
+hr{
+  width: 100%;
+  border-bottom: 2px solid #f0f0f0;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+}
+.AssetManagerWrap{
+  margin-top: calc(6vh + 45px);
+
+}
+
+.AssetManagerSection{
+  width: 100%;
+  margin-bottom: 5vh;
+  color: #000;
+}
+.AssetManagerSection h3{
+  text-align: left;
+  width: 75%;
+  float: left;
+  font-weight: bold;
+}
+.AssetManagerSection h4{
+  text-align: right;
+  width: 25%;
+  float: right;
+  color: #AFAEAE;
+  font-weight: lighter;
+}
+
+/* Bottom Bar Component */
+
+.ComposeBar{
+  left: calc(2vw + 85px);
+  width: calc(100% - 17vw - 85px);
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  background: rgba(256,256,256,0.5);
+  position: fixed;
+  bottom: 0;
+
+}
+.ComposeBar input{
+  width: 50%;
+  line-height: 25px;
+  border: 1px solid #396EFF;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: inherit;
+}
+
+/* Message Bubbles */
+
+.MessageBubble{
+  width: 20%;
+  border-radius: 30px;
+  background-color: #fff;
+  margin-top: 30px;
+  overflow-x: wrap;
+  text-align: left;
+  min-width: 200px;
+}
+
+.Message{
+  color: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.AttachmentPreview{
+  height: 10vw;
+  min-height: 150px;
+  background-color: #396EFF;
+  padding: 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.grey{
+  color: #AFAEAE;
+}
+
+.MessageStream{
+  width: calc(95% - 19vw - 85px);
+  position: fixed;
+  top: calc(6vh + 45px);
+  left: calc(2vw + 85px + 2.5vw);
+  z-index: -2;
+  overflow-y: scroll;
+  height: calc(100% - 6vh - 45px);
+  bottom: calc(4vh + 25px);
+}
