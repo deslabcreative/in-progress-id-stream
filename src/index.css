@@ -138,7 +138,7 @@ hr{
   margin-top: 30px;
   overflow-x: wrap;
   text-align: left;
-  min-width: 200px;
+  min-width: 300px;
 }
 
 .Message{
@@ -171,3 +171,32 @@ hr{
   height: calc(100% - 6vh - 45px);
   bottom: calc(4vh + 25px);
 }
+
+
+/* Login */
+.loginBox{
+  width: 420px;
+  top: 20vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: #fff;
+  position: absolute;
+  left: calc(50% - 210px);
+}
+
+  /* Login Inputs */
+  .loginBox input{
+    width: 80%;
+    padding: 2.5%;
+    margin-left: 7.5%;
+    font-size: 20px;
+    border: 0px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 2.5vh;
+    display: block;
+  }
+  .loginBox input[type="checkbox"]{
+    width: 10%;
+    display: inline-block;
+    margin-left: -10%;
+  }
